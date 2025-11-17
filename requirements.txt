@@ -1,0 +1,9 @@
+streamlit
+pandas
+google-generativeai
+langchain-google-genai
+langchain-core
+pydantic
+matplotlib
+kagglehub
+Pillow
