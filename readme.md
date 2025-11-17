@@ -1,8 +1,8 @@
-# 🚗 Car Image Analysis Streamlit App
+#  Car Image Analysis Streamlit App
 
 This Streamlit application allows users to upload car images, extract key vehicle information (Type, License Plate, Make, Model, Color) using a multimodal AI model, display the collected data in an editable table, and view an analytics dashboard.
 
-## ✨ Features
+##  Features
 
 -   **Image Upload**: Easily upload car images for analysis.
 -   **AI-Powered Data Extraction**: Utilizes `gemini-2.5-flash` (via LangChain) to identify vehicle type, license plate, make, model, and color.
@@ -12,7 +12,7 @@ This Streamlit application allows users to upload car images, extract key vehicl
     -   Distribution of car colors.
     -   Presence/absence of license plates.
 
-## 🛠️ Installation
+## Installation
 
 1.  **Clone the repository (or save the files)**: Ensure `requirements.txt` and `app.py` are in the same directory.
 
@@ -22,7 +22,7 @@ This Streamlit application allows users to upload car images, extract key vehicl
     pip install -r requirements.txt
     ```
 
-## 🔑 Google API Key Setup
+##  Google API Key Setup
 
 The application requires a Google API Key to access the Gemini model. Follow these steps to set it up:
 
@@ -37,7 +37,7 @@ The application requires a Google API Key to access the Gemini model. Follow the
 
     *   **For Streamlit Cloud Deployment**: If you plan to deploy on Streamlit Cloud, you would add your `GOOGLE_API_KEY` as a secret in the Streamlit Cloud settings rather than an environment variable.
 
-## ▶️ How to Run the Application
+##  How to Run the Application
 
 1.  **Ensure dependencies are installed** and your **API key is set**.
 2.  **Run the Streamlit app** from your terminal in the project directory:
@@ -48,7 +48,7 @@ The application requires a Google API Key to access the Gemini model. Follow the
 
 3.  **Access the application**: Streamlit will launch a new tab in your web browser with the application. If it doesn't open automatically, you can navigate to the URL displayed in your terminal (usually `http://localhost:8501`).
 
-## 📚 Technologies Used
+##  Technologies Used
 
 -   [Streamlit](https://streamlit.io/)
 -   [LangChain](https://www.langchain.com/)
